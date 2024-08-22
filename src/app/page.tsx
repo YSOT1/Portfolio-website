@@ -3,7 +3,7 @@ import About from "./ui/hero";
 import Portfolio from "./ui/Portfolio";
 import Skills from "./ui/skills";
 import Contact from "./ui/contact";
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 export default function Home() {
     return (
         <div className="flex flex-col items-center justify-between min-h-screen bg-base-200">
