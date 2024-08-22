@@ -14,9 +14,9 @@ export default function NavBar() {
 
             {/* Desktop Menu */}
             <div className="hidden md:flex space-x-4">
-                <Link href="#portfolio" className="text-xl hover:text-primary">Portfolio</Link>
-                <Link href="#skills" className="text-xl hover:text-primary">Skills</Link>
-                <Link href="#contact" className="text-xl hover:text-primary">Contact</Link>
+                <Link href="#portfolio" className="text-xl font-bold">Portfolio</Link>
+                <Link href="#skills" className="text-xl font-bold">Skills</Link>
+                <Link href="#contact" className="text-xl font-bold">Contact</Link>
             </div>
 
             {/* Hamburger Icon for Mobile */}
