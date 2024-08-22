@@ -1,6 +1,6 @@
 export default function Skills() {
   return (
-      <div className="w-full min-h-screen bg-base-200">
+      <div className="w-full min-h-screen bg-base-200 flex justify-center items-center p-4">
           <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
               <div className="w-full flex justify-center items-center flex-col mb-7">
                   <h1 className="text-4xl sm:text-5xl font-bold">My Skills</h1>

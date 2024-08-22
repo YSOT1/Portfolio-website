@@ -1,6 +1,6 @@
 export default function Portfolio() {
   return (
-      <div className="w-full min-h-screen text-base-content bg-base-200">
+      <div className="w-full min-h-screen bg-base-200 flex justify-center items-center p-4">
           <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
               <div className="pb-8 w-full flex justify-center items-center flex-col">
                   <h1 className="text-4xl sm:text-5xl font-bold">Portfolio</h1>
